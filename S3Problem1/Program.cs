@@ -7,16 +7,16 @@ namespace S3Problem1
         static void Main(string[] args)
         {
             // Sample Input 1
-            //DateTime startTime = DateTime.Parse("2019-08-31 08:59:13 am");
-            //DateTime endTime = DateTime.Parse("2019-08-31 09:00:39 am");
+            DateTime startTime = DateTime.Parse("2019-08-31 08:59:13 am");
+            DateTime endTime = DateTime.Parse("2019-08-31 09:00:39 am");
 
             // Sample Input 2
             //DateTime startTime = DateTime.Parse("2019-09-29 10:59:55 pm");
             //DateTime endTime = DateTime.Parse("2019-09-29 11:00:09 pm");
 
             // Sample Input 3
-            DateTime startTime = DateTime.Parse("2019-09-29 11:59:47 pm");
-            DateTime endTime = DateTime.Parse("2019-09-30 12:00:15 am");
+            //DateTime startTime = DateTime.Parse("2019-09-29 11:59:47 pm");
+            //DateTime endTime = DateTime.Parse("2019-09-30 12:00:15 am");
 
             var totalCharge = 0;
             while (startTime <= endTime)
